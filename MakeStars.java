@@ -9,7 +9,9 @@ public class MakeStars{
           for (int i = 0; i < temp.length(); i++){
             System.out.print("*");
           }
-          System.out.print(" ");
+          while (m.hasNext){
+            System.out.print(" ");
+          }
         }
         System.out.println();
       }
